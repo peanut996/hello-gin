@@ -19,7 +19,7 @@ func main() {
 	log.Println("App start...")
 	taurus.Run()
 	log.Println("App start handle async task...")
-	taurus.HandleAsyncTask()
+
 
 	quit := make(chan os.Signal)
 	signal.Notify(quit, os.Interrupt)
